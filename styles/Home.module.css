@@ -1,0 +1,118 @@
+.body {
+  font-family: "Karla", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: -webkit-radial-gradient(circle, #00c5ff, #0086ad, #005e7a);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.logincard {
+  border: 0;
+  border-radius: 27.5px;
+  box-shadow: 0 10px 30px 0 rgba(172, 168, 168, 0.43);
+  overflow: hidden;
+}
+.loginimg {
+  border-radius: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.brandwrapper {
+  margin-bottom: 19px;
+}
+.brandwrapper .logo {
+  height: 2rem;
+}
+
+.logincardbody {
+  padding: 85px 60px 60px;
+}
+@media (max-width: 422px) {
+  .logincard {
+    padding: 37px 24px;
+  }
+}
+
+.logincarddescription {
+  font-size: 25px;
+  color: #000;
+  font-weight: normal;
+  margin-bottom: 23px;
+}
+.logincardform {
+  max-width: 326px;
+}
+.formcontrol {
+  border: 1px solid #d5dae2;
+  padding: 25px 30px;
+  margin-bottom: 20px;
+  min-height: 45px;
+  font-size: 13px;
+  line-height: 15;
+  font-weight: normal;
+}
+.logincard .formcontrol::-webkit-input-placeholder {
+  color: #919aa3;
+}
+.logincard .formcontrol::-moz-placeholder {
+  color: #919aa3;
+}
+.logincard .formcontrol:-ms-input-placeholder {
+  color: #919aa3;
+}
+.logincard .formcontrol::-ms-input-placeholder {
+  color: #919aa3;
+}
+.logincard .formcontrol::placeholder {
+  color: #919aa3;
+}
+.logincard .loginbtn {
+  padding: 13px 20px 12px;
+  background-color: #000;
+  border-radius: 4px;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.logincard .loginbtn:hover {
+  border: 1px solid #000;
+  background-color: transparent;
+  color: #000;
+}
+.logincard .forgotpasswordlink {
+  font-size: 14px;
+  color: #919aa3;
+  margin-bottom: 12px;
+}
+.logincardfootertext {
+  font-size: 16px;
+  color: #0d2366;
+  margin-bottom: 60px;
+}
+@media (max-width: 767px) {
+  .logincardfootertext {
+    margin-bottom: 24px;
+  }
+}
+
+.logo {
+  height: 1em;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+@media (max-width: 422px) {
+  .logincard .cardbody {
+    padding: 35px 24px;
+  }
+}
